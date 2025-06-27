@@ -215,3 +215,48 @@ def send_budget_alert(user_id, overage_amount):
 **Priority:** High  
 **Phase:** 1 - Foundation  
 **Dependencies:** Phase 1.1 completion
+
+
+### Full Scale project structure
+```smartcart-ai-assistant/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   ├── middleware/
+│   │   └── utils/
+│   ├── tests/
+│   ├── package.json
+│   └── tsconfig.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   ├── utils/
+│   │   └── types/
+│   ├── public/
+│   └── package.json
+├── mobile/
+│   ├── src/
+│   │   ├── screens/
+│   │   ├── components/
+│   │   └── navigation/
+│   └── package.json
+├── ml/
+│   ├── models/
+│   ├── training/
+│   ├── data/
+│   └── requirements.txt
+├── shared/
+│   ├── types/
+│   ├── utils/
+│   └── constants/
+├── docs/
+├── docker-compose.yml
+├── .gitignore
+├── .env.example
+└── README.md
+```
