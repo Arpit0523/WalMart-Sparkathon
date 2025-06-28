@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.1.6">
+  <diagram name="Page-1" id="QgagjcBpmF1n1-FIjRqF">
+    <mxGraphModel dx="765" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-10" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-11" value="Django Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GHS_DL0JvDoaBwjw2W30-10">
+          <mxGeometry x="85" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-13" value="Django rest Framework" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GHS_DL0JvDoaBwjw2W30-10">
+          <mxGeometry x="15" y="50" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-12" value="Django View Models" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GHS_DL0JvDoaBwjw2W30-10">
+          <mxGeometry x="100" y="50" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-14" value="Django Channels (websockets)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GHS_DL0JvDoaBwjw2W30-10">
+          <mxGeometry x="190" y="50" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GHS_DL0JvDoaBwjw2W30-17" target="GHS_DL0JvDoaBwjw2W30-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-17" value="Django ORM &amp;amp; Middleware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GHS_DL0JvDoaBwjw2W30-13" target="GHS_DL0JvDoaBwjw2W30-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="240" />
+              <mxPoint x="260" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GHS_DL0JvDoaBwjw2W30-12" target="GHS_DL0JvDoaBwjw2W30-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="250" />
+              <mxPoint x="345" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GHS_DL0JvDoaBwjw2W30-14" target="GHS_DL0JvDoaBwjw2W30-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="240" />
+              <mxPoint x="440" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GHS_DL0JvDoaBwjw2W30-22" target="GHS_DL0JvDoaBwjw2W30-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-22" value="Client Apps&amp;nbsp;&lt;div&gt;(React Native)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-24" value="Redies Cache / Sessions" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-26" value="PostgresSql User/Cart data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-27" value="MongoDB Product Catalog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GHS_DL0JvDoaBwjw2W30-28" target="GHS_DL0JvDoaBwjw2W30-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="357" y="370" />
+              <mxPoint x="357" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-28" value="Celery&amp;nbsp;&lt;div&gt;Task Queue&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="400" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GHS_DL0JvDoaBwjw2W30-29" target="GHS_DL0JvDoaBwjw2W30-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-29" value="Gemini / Tensorflow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="380" as="sourcePoint" />
+            <mxPoint x="190" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHS_DL0JvDoaBwjw2W30-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="380" as="sourcePoint" />
+            <mxPoint x="520" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
